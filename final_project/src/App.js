@@ -5,7 +5,8 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-     <div className="App">
+      <div className="App">
+        <h1>mural-me</h1>
         <Map />
       </div>
     );
