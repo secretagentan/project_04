@@ -3,6 +3,13 @@
 ## Overview 
 
 ### User Stories
+- As a user, I will initially be routed to a login page
+- Users will be able to log in via Google oauth
+- Once logged in, users will be redirected to the main page
+- From the main page, users will be able to view/access an upload form
+- The upload form will allow users to add images to the gallery
+- From the main page, users will be able to see a gallery of uploaded photos
+- From the main page, users will be able to click on a link to the map page
 
 ### Screenshots of App
 
@@ -13,7 +20,6 @@
 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
 - [Amazon S3 - Image Hosting](https://developers.google.com/maps/documentation/javascript/tutorial)
 - [Multer](https://github.com/expressjs/multer)
-- 
 
 ## Technical Requirements:
 - [ ] **Be a full-stack application** with well-styled views on the front-end 
@@ -21,10 +27,10 @@
 - [ ] **Have an interactive front-end** resulting in a great UX - sounds like a 
 			great use case for a SPA.
 - [ ] **Be relatively comprehensive**. For example:
-			* CRUD multiple related data models.
-			* Consume a third-party API.
-			* Implement authentication and authorization. Consider implementing an admin 
-				feature or two.
+			- [ ] CRUD multiple related data models.
+			- [ ] Consume a third-party API.
+			- [ ] Implement authentication and authorization. Consider implementing an 
+						admin feature or two.
 - [ ] **Implement thoughtful user stories** prioritized to help guide you.
 - [ ] **Be deployed online** so that it's publicly accessible.
 
@@ -34,19 +40,19 @@
 - [ ] A **git repository hosted on Github**, with a link to your hosted project 
 			and frequent commits dating back to the very beginning of the project.
 - [ ] **A ``readme.md`` file** with:
-			* An embedded screenshot of the app
-			* Explanations of the **technologies** used
-			* A couple paragraphs about the **general approach you took**
-			* **Installation instructions** for any dependencies
-			* Descriptions of any **unsolved problems** or **major hurdles** you had 
+			- [ ] An embedded screenshot of the app
+			- [ ] Explanations of the **technologies** used
+			- [ ] A couple paragraphs about the **general approach you took**
+			- [ ] **Installation instructions** for any dependencies
+			- [ ] Descriptions of any **unsolved problems** or **major hurdles** you had 
 				to overcome
-			* A table of your **routes** with their **auth** requirements.
+			- [ ] A table of your **routes** with their **auth** requirements.
 - [ ] A **Trello board** that contains:
-			* Your **user stories** organized in the appropriate list (Ice Box, 
+			- [ ] Your **user stories** organized in the appropriate list (Ice Box, 
 				Current/MVP and Completed), moving from left to right.
-			* Your **wireframes** – sketches of the major parts of your UI in your 
+			- [ ] Your **wireframes** – sketches of the major parts of your UI in your 
 				application.
-			* Your **EDM** diagramming your models and their relationships.
+			- [ ] Your **EDM** diagramming your models and their relationships.
 
 ## General Approach
 
