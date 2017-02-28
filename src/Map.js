@@ -21,13 +21,12 @@ class Map extends Component {
   render() {
     const mapStyle = {
       width: '100%',
-      height: 800,
-      border: '1px solid black'
+      height: 600
     };
 
     return (
       <div>
-        <div ref="map" style={mapStyle}>Map goes here</div>
+        <div className="map" ref="map" style={mapStyle}>Map goes here</div>
       </div>
     );
   }
