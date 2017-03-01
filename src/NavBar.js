@@ -8,6 +8,7 @@ class NavBar extends React.Component {
         <div className="nav-wrapper">
           <span className="brand-logo center"><Link to="/">m u r a l . l a</Link></span>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
+            <li><Link to="/gallery">gallery</Link></li>
             <li><Link to="/map">map</Link></li>
             <li><Link to="/upload">upload</Link></li>
           </ul>
