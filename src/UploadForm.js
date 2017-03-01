@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class UploadForm extends Component {
+class UploadForm extends React.Component {
   constructor() {
     super();
   }

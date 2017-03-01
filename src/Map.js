@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const LA_ARTS_DIST_POS = {
   lat: 34.0463342,
@@ -6,7 +6,7 @@ const LA_ARTS_DIST_POS = {
 };
 
 
-class Map extends Component {
+class Map extends React.Component {
   constructor() {
     super();
   }
@@ -21,14 +21,10 @@ class Map extends Component {
   render() {
     const mapStyle = {
       width: '100%',
-      height: 600
+      height: '94vh'
     };
 
-    return (
-      <div>
-        <div className="map" ref="map" style={mapStyle}>Map goes here</div>
-      </div>
-    );
+    return (<div className="map" ref="map" style={mapStyle}>Map goes here</div>);
   }
 }
 
