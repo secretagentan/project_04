@@ -7,10 +7,10 @@
   },
   "dependencies": {
     "express": "^4.14.1",
-    "node": "^0.0.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-router": "^3.0.2"
+    "react-router": "^3.0.2",
+    "whatwg-fetch": "^2.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

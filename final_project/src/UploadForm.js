@@ -7,12 +7,16 @@ class UploadForm extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="upload-form">
       <form action="#">
         <div className="file-field input-field">
           <div className="file-path-wrapper">
-            <input className="file-path validate" type="text"/>
-            <button className="btn waves-effect waves-light" type="submit" name="action">Submit
+            <input type="text" placeholder="username" />
+            <input type="text" placeholder="enter image url" />
+            <input type="text" placeholder="city, state" />
+            <input type="text" placeholder="latitude" />
+            <input type="text" placeholder="longitude" />
+            <button className="btn waves-effect waves-light center" type="submit" name="action">Submit
               <i className="material-icons right">send</i>
             </button>
           </div>

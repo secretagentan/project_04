@@ -4,6 +4,7 @@ import { Router, Route, hashHistory } from 'react-router';
 import App from './App';
 import Map from './Map';
 import UploadForm from './UploadForm';
+import ImgGallery from './ImgGallery';
 import './index.css';
 
 ReactDOM.render(
@@ -16,6 +17,7 @@ ReactDOM.render((
     <Route path='/' component={App}>
       <Route path='/map' component={Map} />
       <Route path='/upload' component={UploadForm} />
+      <Route path='/gallery' component={ImgGallery} />
     </Route>
   </Router>
 ), document.getElementById('root'));
