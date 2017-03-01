@@ -16,7 +16,7 @@ class UploadForm extends React.Component {
             <input type="text" placeholder="city, state" />
             <input type="text" placeholder="latitude" />
             <input type="text" placeholder="longitude" />
-            <button className="btn waves-effect waves-light center" type="submit" name="action">Submit
+            <button className="btn right waves-effect waves-light" type="submit" name="action">Submit
               <i className="material-icons right">send</i>
             </button>
           </div>
