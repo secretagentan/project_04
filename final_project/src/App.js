@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-// import UploadForm from './UploadForm';
-import Map from './Map';
 import NavBar from './NavBar';
 import './App.css';
 

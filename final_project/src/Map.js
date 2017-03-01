@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LA_ARTS_DIST_POS = {
+const LA_ARTS_DIST = {
   lat: 34.0463342,
   lng: -118.2352291
 };
@@ -13,7 +13,7 @@ class Map extends React.Component {
 
   componentDidMount() {
     this.map = new window.google.maps.Map(this.refs.map, {
-      center: LA_ARTS_DIST_POS,
+      center: LA_ARTS_DIST,
       zoom: 17
     });
   }
