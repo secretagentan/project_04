@@ -1,14 +1,15 @@
 import React from 'react';
 
+
 class UploadForm extends React.Component {
   constructor() {
     super();
     this.state = {
-      imgUrl: 'a',
-      username: 'b',
-      note: 'c',
-      lat: 'd',
-      lng: 'e'
+      imgUrl: '',
+      username: '',
+      note: '',
+      lat: '',
+      lng: ''
     }
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleChange = this.handleChange.bind(this);
@@ -25,6 +26,15 @@ class UploadForm extends React.Component {
   handleSubmit(event) {
     event.preventDefault();
     console.log(this.state);
+    const url = 'http://localhost:8080/places';
+    fetch(url, {
+      method: 'POST',
+      body: this.state
+    }).then(function(res) {
+      console.log(res);
+    }).catch(function(err) {
+      console.log(err);
+    })
   }
 
   render() {
