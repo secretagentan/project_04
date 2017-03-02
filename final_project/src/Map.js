@@ -1,6 +1,7 @@
 import React from 'react';
+// import Marker from './Marker'
 
-const LA_ARTS_DIST = {
+const mapCenter = {
   lat: 34.0463342,
   lng: -118.2352291
 };
@@ -11,9 +12,21 @@ class Map extends React.Component {
     super();
   }
 
+  // renderChildren() {
+  //   const {children} = this.props;
+  //   if (!children) return;
+  //   return React.Children.map(children, c => {
+  //     return React.cloneElement(c, {
+  //       map: this.map,
+  //       google: this.props.google,
+  //       center: mapCenter
+  //     })
+  //   })
+  // }
+
   componentDidMount() {
     this.map = new window.google.maps.Map(this.refs.map, {
-      center: LA_ARTS_DIST,
+      center: mapCenter,
       zoom: 17
     });
   }
@@ -24,7 +37,13 @@ class Map extends React.Component {
       height: '94vh'
     };
 
-    return (<div className="map" ref="map" style={mapStyle}>Map goes here</div>);
+    return (
+      <div>
+        <div className="map" ref="map" style={mapStyle}>
+          Loading map...
+        </div>
+      </div>
+      );
   }
 }
 
