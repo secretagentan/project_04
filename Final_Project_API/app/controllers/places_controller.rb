@@ -15,6 +15,8 @@ class PlacesController < ApplicationController
 
   # POST /places
   def create
+    puts place_params
+
     @place = Place.new(place_params)
 
     if @place.save
