@@ -5,6 +5,11 @@ class ImgGallery extends React.Component {
     super();
   }
 
+  renderGallery() {
+
+
+  }
+
   render() {
     return (
       <div className="gallery">
