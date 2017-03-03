@@ -8,9 +8,6 @@ const mapCenter = {
 
 
 class Map extends React.Component {
-  constructor() {
-    super();
-  }
 
   // renderChildren() {
   //   const {children} = this.props;
