@@ -11,7 +11,7 @@ class ImgGallery extends React.Component {
 
   componentDidMount() {
     // function retrieveData() {
-      const url = 'http://localhost:3000/places';
+      const url = 'https://afternoon-plains-60826.herokuapp.com/places';
       fetch(url)
         .then( res => res.json() )
         .then( data => {

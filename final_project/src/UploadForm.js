@@ -28,7 +28,7 @@ class UploadForm extends React.Component {
   }
 
   createPlace() {
-    const url = 'http://localhost:3000/places';
+    const url = 'https://afternoon-plains-60826.herokuapp.com/places';
     const data = {
       place: this.state
     }

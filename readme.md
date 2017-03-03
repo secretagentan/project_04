@@ -24,6 +24,7 @@ Mural.la is a user-driven gallery of street art around the greater Los Angeles a
 - [Requirements & Deliverables](/deliverables.md)
 
 ## General Approach
+Ever since seeing my peers implement the Google Maps API 
 
 ## Unsolved Problems / Hurdles
 
