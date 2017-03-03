@@ -14,17 +14,33 @@ class PlacesController < ApplicationController
   end
 
   # POST /places
+  # http://edgeguides.rubyonrails.org/action_controller_overview.html#strong-parameters
   def create
-    puts place_params
+    # puts place_params
 
+    # @place = Place.new(place_params)
+    # puts params[:place]
+
+    # @place = Place.create(params[:place])
     @place = Place.new(place_params)
+    # @place.username = :place
 
     if @place.save
       render json: @place, status: :created, location: @place
+      # render json: @place, status: :created, place: @place
     else
       render json: @place.errors, status: :unprocessable_entity
     end
   end
+
+  private
+    # Using a private method to encapsulate the permissible parameters
+    # is just a good pattern since you'll be able to reuse the same
+    # permit list between create and update. Also, you can specialize
+    # this method with per-user checking of permissible attributes.
+    def place_params
+      params.require(:place).permit(:img_url, :lat, :lng, :created_by, :note)
+    end
 
   # PATCH/PUT /places/1
   def update
