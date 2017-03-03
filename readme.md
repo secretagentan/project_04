@@ -3,13 +3,7 @@
 ## Overview 
 
 ### Description
-
-
-### User Stories 
-- [User Stories & App Features](/userstories.md)
-
-### Screenshots
-- [Screenshots & Wireframes](/wireframes.md)
+Mural.la is a user-driven gallery of street art around the greater Los Angeles area. 
 
 ### Technologies Used
 - HTML/CSS
@@ -19,6 +13,12 @@
 - ES6
 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
 - Imgur (Image Hosting)
+
+### User Stories 
+- [User Stories & App Features](/userstories.md)
+
+### Screenshots
+- [Screenshots & Wireframes](/wireframes.md)
 
 ## Technical Requirements
 - [Requirements & Deliverables](/deliverables.md)
