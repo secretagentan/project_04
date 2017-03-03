@@ -3,14 +3,20 @@ import React from 'react';
 class ImgGallery extends React.Component {
   constructor() {
     super();
+    this.renderGallery = this.renderGallery.bind(this);
   }
 
   renderGallery() {
-
-
+    const url = 'http://localhost:8080/places';
+    fetch(url).then(function(res) {
+      console.log(res);
+    }).catch(function(err) {
+      console.log(err);
+    })
   }
 
   render() {
+    this.renderGallery();
     return (
       <div className="gallery">
         <img className="gallery-img" src='http://i.imgur.com/CrEk1Q3.jpg' alt="img1" />
