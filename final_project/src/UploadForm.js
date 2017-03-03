@@ -23,7 +23,7 @@ class UploadForm extends React.Component {
   }
 
   handleSubmit(event) {
-    event.preventDefault();
+    // event.preventDefault();
     this.createPlace();
   }
 
