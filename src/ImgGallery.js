@@ -3,22 +3,44 @@ import React from 'react';
 class ImgGallery extends React.Component {
   constructor() {
     super();
-    this.renderGallery = this.renderGallery.bind(this);
+    this.state = {
+      data: []
+    }
+    // this.retrieveData = this.retrieveData.bind(this);
   }
 
-  renderGallery() {
-    const url = 'http://localhost:8080/places';
-    fetch(url).then(function(res) {
-      console.log(res);
-    }).catch(function(err) {
-      console.log(err);
-    })
+  componentDidMount() {
+    // function retrieveData() {
+      const url = 'http://localhost:3000/places';
+      fetch(url)
+        .then( res => res.json() )
+        .then( data => {
+          this.setState({
+            data: data
+          });
+          console.log('state.data in then ',this.state.data);
+        })
+    // }
   }
+
+
 
   render() {
-    this.renderGallery();
+    // this.retrieveData();
+    const data = this.state.data;
+    // console.log(data);
+    // const results = data.map( (key, val) => <div key={key}>{val}</div>)
+
     return (
       <div className="gallery">
+
+        <img className="gallery-img" src={this.state.data} alt="img-test" />
+        <p>posted by: {this.props.created_by}</p>
+        <p>location: {this.props.note}</p>
+        <p>lat: {this.props.lat}</p>
+        <p>long: {this.props.lng}</p>
+
+        <br/><br/>
         <img className="gallery-img" src='http://i.imgur.com/CrEk1Q3.jpg' alt="img1" />
         <p>posted by: secretagentan</p>
         <p>location: los angeles, ca</p>

@@ -1,5 +1,4 @@
 import React from 'react';
-import ImgGallery from './ImgGallery';
 
 class UploadForm extends React.Component {
   constructor() {
@@ -48,11 +47,11 @@ class UploadForm extends React.Component {
         <form action="/places" method="post" onSubmit={this.handleSubmit}>
           <div className="file-field input-field">
             <div className="file-path-wrapper">
-              <input type="text" name="created_by" placeholder="created_by"  onChange={this.handleChange} />
-              <input type="text" name="img_url" placeholder="image url" value={this.state.img_url} onChange={this.handleChange} />
-              <input type="text" name="note" placeholder="city, state" value={this.state.note} onChange={this.handleChange} />
-              <input type="text" name="lat" placeholder="latitude" value={this.state.lat} onChange={this.handleChange} />
-              <input type="text" name="lng" placeholder="longitude" value={this.state.lng} onChange={this.handleChange} />
+              <input type="text" name="created_by" placeholder="created_by" onChange={this.handleChange} />
+              <input type="text" name="img_url" placeholder="image url" onChange={this.handleChange} />
+              <input type="text" name="note" placeholder="city, state" onChange={this.handleChange} />
+              <input type="text" name="lat" placeholder="latitude" onChange={this.handleChange} />
+              <input type="text" name="lng" placeholder="longitude" onChange={this.handleChange} />
               <button className="btn right waves-effect waves-light" type="submit" name="action">Submit
                 <i className="material-icons right">send</i>
               </button>
