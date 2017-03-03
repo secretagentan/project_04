@@ -13,4 +13,8 @@
 ### Icebox
 - Uploaded photos to be displayed as markers on the Google map
 - Users can upload photo files through the form (rather than an image link)
+- Users would be able to log in via oauth (Google, Facebook, etc.) from the landing page 
+- Users would be able to modify their own posts
+- Users would be able to delete their own posts
+- Admin would be able to delete and modify user posts 
 - Mobile-friendly (hamburger menu)
