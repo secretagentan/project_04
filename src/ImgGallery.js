@@ -23,8 +23,6 @@ class ImgGallery extends React.Component {
     // }
   }
 
-
-
   render() {
     // this.retrieveData();
     const data = this.state.data;
