@@ -13,3 +13,4 @@
 ### Icebox
 - Uploaded photos to be displayed as markers on the Google map
 - Users can upload photo files through the form (rather than an image link)
+- Mobile-friendly (hamburger menu)

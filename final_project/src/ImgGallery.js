@@ -52,6 +52,8 @@ class Kitten extends React.Component {
         <p>location: {this.props.data.note}</p>
         <p>lat: {this.props.data.lat}</p>
         <p>long: {this.props.data.lng}</p>
+        <br/>
+        <br/>
       </div>
       )
   }

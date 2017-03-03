@@ -12,7 +12,7 @@ Mural.la is a user-driven gallery of street art around the greater Los Angeles a
 - Ruby on Rails (database)
 - ES6
 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
-- Imgur (Image Hosting)
+- Imgur (image hosting)
 
 ### User Stories 
 - [User Stories & App Features](/userstories.md)
