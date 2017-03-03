@@ -1,0 +1,49 @@
+html {
+  background: url('http://i.imgur.com/aB5kI5J.jpg?1') no-repeat center center fixed;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 100;
+}
+.my-nav {
+  opacity: 0.9;
+}
+.gallery {
+  background-color: white;
+  padding: 4%;
+  font-size: .8em;
+}
+img.gallery-img {
+  width: 75%;
+}
+.upload-form {
+  background-color: white;
+  padding: 3% 2% 0 1%;
+  margin: 6% auto;
+  width: 50%;
+  opacity: 0.9;
+}
+.App {
+  text-align: center;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+.App-intro {
+  font-size: large;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
