@@ -2,16 +2,15 @@
 
 ## Overview 
 
-### User Stories
-- As a user, I will initially be routed to a login page
-- Users will be able to log in via Google oauth
-- Once logged in, users will be redirected to the main page
-- From the main page, users will be able to view/access an upload form
-- The upload form will allow users to add images to the gallery
-- From the main page, users will be able to see a gallery of uploaded photos
-- From the main page, users will be able to click on a link to the map page
+### Description
 
-### Screenshots of App
+
+### User Stories 
+- [User Stories & App Features](/userstories.md)
+
+### Screenshots & Wireframes
+- [Wireframes](/wireframes.md)
+![ERD](http://i.imgur.com/iExY0Dl.png)
 
 ### Technologies Used
 - HTML/CSS
@@ -57,11 +56,7 @@
 
 ## General Approach
 
-## Installation Instructions
-
 ## Unsolved Problems / Hurdles
-
-## Routes and Authentication Requirements
 
 ## Trello Board
 
