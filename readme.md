@@ -26,13 +26,5 @@ Mural.la is a user-driven photo blog/gallery of street art found around the grea
 ## Technical Requirements
 - [Requirements & Deliverables](/deliverables.md)
 
-## General Approach
-Ever since WDI Project #02, I wanted to learn how to use the Google Maps API after seeing some of my peers use it for their CRUD apps. I came up with the idea for a street art gallery during Project #03 and decided to commit to it early for this sprint. 
-
-I spent the first two days brainstorming, researching the Google Maps APIs, and reading up on React
-
-## Unsolved Problems / Hurdles
-
 ## Trello Board
-
 - [Trello](https://trello.com/b/KE4cXxEq/wdi-project-04)
