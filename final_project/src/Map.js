@@ -1,5 +1,4 @@
 import React from 'react';
-// import Marker from './Marker'
 
 const mapCenter = {
   lat: 34.0463342,
@@ -8,18 +7,6 @@ const mapCenter = {
 
 
 class Map extends React.Component {
-
-  // renderChildren() {
-  //   const {children} = this.props;
-  //   if (!children) return;
-  //   return React.Children.map(children, c => {
-  //     return React.cloneElement(c, {
-  //       map: this.map,
-  //       google: this.props.google,
-  //       center: mapCenter
-  //     })
-  //   })
-  // }
 
   componentDidMount() {
     this.map = new window.google.maps.Map(this.refs.map, {

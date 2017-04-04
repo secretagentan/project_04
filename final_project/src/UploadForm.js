@@ -1,6 +1,7 @@
 import React from 'react';
 
 class UploadForm extends React.Component {
+
   constructor() {
     super();
     this.state = {
@@ -41,6 +42,7 @@ class UploadForm extends React.Component {
       body: JSON.stringify(data)
     }).then( res => res.json() ).then(console.log);
   }
+
   render() {
     return (
       <div className="upload-form">
@@ -63,6 +65,7 @@ class UploadForm extends React.Component {
       </div>
     );
   }
+
 };
 
 export default UploadForm;

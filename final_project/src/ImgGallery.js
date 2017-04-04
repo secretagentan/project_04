@@ -1,33 +1,29 @@
 import React from 'react';
 
 class ImgGallery extends React.Component {
+
   constructor() {
     super();
     this.state = {
       data: []
     }
-    // this.retrieveData = this.retrieveData.bind(this);
   }
 
   componentDidMount() {
-    // function retrieveData() {
-      const url = 'https://afternoon-plains-60826.herokuapp.com/places';
-      fetch(url)
-        .then( res => res.json() )
-        .then( data => {
-          this.setState({
-            data: data
-          });
-          console.log('state.data in then ',this.state.data);
-        })
-    // }
+    const url = 'https://afternoon-plains-60826.herokuapp.com/places';
+    fetch(url)
+      .then( res => res.json() )
+      .then( data => {
+        this.setState({
+          data: data
+        });
+        console.log('state.data in then ',this.state.data);
+      })
   }
 
   render() {
-    // this.retrieveData();
     const data = this.state.data;
-    // console.log(data);
-    const results = data.map( (dat, index) => <Kitten key={index} data={dat} />)
+    const results = data.map( (dat, index) => <GalleryPost key={index} data={dat} />)
 
     return (
       <div className="gallery">
@@ -35,15 +31,18 @@ class ImgGallery extends React.Component {
       </div>
     );
   }
+
 };
 
-class Kitten extends React.Component {
+class GalleryPost extends React.Component {
+
   constructor(props) {
     super(props);
     this.state = {
       data: props
     }
   }
+
   render() {
     return (
       <div>
@@ -55,7 +54,7 @@ class Kitten extends React.Component {
         <br/>
         <br/>
       </div>
-      )
+    );
   }
 }
 
