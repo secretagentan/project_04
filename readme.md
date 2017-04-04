@@ -16,15 +16,13 @@ Mural.la is a user-driven photo blog/gallery of street art found around the grea
 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
 - [Heroku](https://afternoon-plains-60826.herokuapp.com/places)
 - Imgur (image hosting)
+- [Trello](https://trello.com/b/KE4cXxEq/wdi-project-04)
+
+### Technical Requirements
+- [Requirements & Deliverables](/deliverables.md)
 
 ### User Stories 
 - [User Stories & App Features](/userstories.md)
 
 ### Screenshots
 - [Screenshots & Wireframes](/wireframes.md)
-
-## Technical Requirements
-- [Requirements & Deliverables](/deliverables.md)
-
-## Trello Board
-- [Trello](https://trello.com/b/KE4cXxEq/wdi-project-04)
